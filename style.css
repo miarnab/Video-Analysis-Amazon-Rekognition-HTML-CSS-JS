@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(221, 224, 224);
+}
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 200%;
+}
+
+h2 {
+  color: rgb(68, 0, 255);
+  font-family: verdana;
+  font-size: 100%;
+}
+
+h3 {
+  color: rgb(111, 0, 255);
+  font-family: verdana;
+  font-size: 80%;
+}
+
+button {
+  color: green;
+  font-family: verdana;
+  font-size: 90%;
+}
+
+table {
+  font-family: verdana;
+  color: blue;
+}

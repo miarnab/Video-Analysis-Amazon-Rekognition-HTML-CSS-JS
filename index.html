@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-duration-format/2.2.2/moment-duration-format.min.js"></script>
+    <!-- AWS SDK for JavaScript v2 -->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.964.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <hr>
+    <h1>Video Indexing App</h1>
+    <hr>
+    <div id="app" />
+    <h2>Please Choose a Video</h2>
+    <input id="videoupload" type="file" accept="video/*">
+    <hr>
+    <button id="addVideo" onclick="uploadVideo()">Upload the Video to S3</button>
+    <hr>
+    <div id="video"></div>
+    <div id="video-status"></div>
+    <hr>
+    
+    <button id="detectLabel" onclick="startDetectLabel()">Detect Labels</button>
+    <hr>
+    
+
+    <button id="detectFaces" onclick="startDetectFaces()">Detect Faces</button>
+    <hr> 
+    
+    
+    <button id="detectCelebrity" onclick="startDetectCelebrity()">Detect Celebrity</button>
+    <hr>
+     
+    <button id="detectText" onclick="startDetectText()">Detect Text</button>
+    <hr>
+    
+    <div id="jobid"></div>
+    <div id="status"></div>
+  
+      
+</body>
+
+</html>
