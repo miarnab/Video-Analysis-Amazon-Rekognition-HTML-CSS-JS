@@ -1,6 +1,6 @@
 
 // Project Variables
-var bucketName = 'YOUR_BUCKET_REGION';
+var bucketName = 'YOUR_BUCKET_NAME';
 var bucketRegion = 'YOUR_BUCKET_REGION';
 var roleArn = 'YOUR_ROLE_ARN';
 var snsTopicArn = 'YOUR_SNS_TOPIC_ARN';
