@@ -1,13 +1,13 @@
 
 // Project Variables
-var bucketName = 'YOUR_BUCKET_NAME';
-var bucketRegion = 'YOUR_BUCKET_REGION';
-var roleArn = 'YOUR_ROLE_ARN';
-var snsTopicArn = 'YOUR_SNS_TOPIC_ARN';
+var bucketName = '';
+var bucketRegion = '';
+var roleArn = '';
+var snsTopicArn = '';
 
 // AWS Credentials
 AWS.config.update({
-    accessKeyId: 'YOUR_ACCESS_KEY', secretAccessKey: 'YOUR_SECRET_KEY', region: 'YOUR_REGION'
+    accessKeyId: '', secretAccessKey: '', region: ''
   })
 
 //AWS S3 Object Configuration  
